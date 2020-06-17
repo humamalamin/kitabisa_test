@@ -1,6 +1,6 @@
 package services
 
-import "github.com/kitabisa_test/domains"
+import "github.com/humamalamin/kitabisa_test/domains"
 
 type FibonacciService struct {
 	domains.RowNumber

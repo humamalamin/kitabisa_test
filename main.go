@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/kitabisa_test/domains"
-	"github.com/kitabisa_test/services"
+	"github.com/humamalamin/kitabisa_test/domains"
+	"github.com/humamalamin/kitabisa_test/services"
 )
 
 func main() {
