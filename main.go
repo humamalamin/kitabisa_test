@@ -10,7 +10,7 @@ import (
 func main() {
 	var a, b, c int
 
-	fmt.Println("Enter number : ")
+	fmt.Println("Enter number X,Y: ")
 	fmt.Scanf("%d", &a)
 	fmt.Scanf("%d", &b)
 
@@ -19,13 +19,13 @@ func main() {
 		B: b,
 	}
 
-	jobPenambahan := services.SumService{calc}
-	jobPerkalian := services.MultiplyService{calc}
+	jobAddition := services.SumService{calc}
+	jobMultiply := services.MultiplyService{calc}
 
-	services.Operator(jobPenambahan)
-	services.Operator(jobPerkalian)
+	services.Operator(jobAddition)
+	services.Operator(jobMultiply)
 
-	fmt.Println("Enter Range Number: ")
+	fmt.Println("Enter number to generate N Prime number and Fibonacci: ")
 	fmt.Scanf("%d", &c)
 
 	calc_range := domains.RowNumber{

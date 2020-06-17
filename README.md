@@ -26,11 +26,11 @@ go run main.go
 ```bash
 go run main.go
 
-Enter number :
-2 3
+Enter number X,Y :
+2,3
 Sum => 5
 Multiply => 6
-Enter Range Number :
+Enter number to generate N Prime number and Fibonacci :
 4
 Prime : [2 3 5 7]
 Fibonacci : [0 1 1 2]

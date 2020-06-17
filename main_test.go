@@ -17,9 +17,9 @@ func TestAddition(t *testing.T) {
 		B: 2,
 	}
 
-	jobPenambahan := services.SumService{calc}
+	jobAddition := services.SumService{calc}
 
-	services.Operator(jobPenambahan)
+	services.Operator(jobAddition)
 
 	t.Logf("Sum => %d", 3)
 }
@@ -30,9 +30,9 @@ func TestMultiply(t *testing.T) {
 		B: 2,
 	}
 
-	jobPerkalian := services.MultiplyService{calc}
+	jobMultiply := services.MultiplyService{calc}
 
-	services.Operator(jobPerkalian)
+	services.Operator(jobMultiply)
 
 	t.Logf("Muultiply => %d", 2)
 }
